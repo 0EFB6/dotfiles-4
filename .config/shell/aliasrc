@@ -52,5 +52,8 @@ chpwd() ls -a
 alias p="poweroff"
 export PATH=~/git/scripts/:$PATH
 alias v="nvim"
+alias i="sudo xbps-install"
+alias u="sudo xbps-remove"
+alias q="sudo xbps-query"
 alias dots='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 cfetch
