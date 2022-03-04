@@ -55,5 +55,7 @@ alias v="nvim"
 alias i="sudo xbps-install"
 alias u="sudo xbps-remove"
 alias q="sudo xbps-query"
+alias xdeb="xdeb -Sde"
+alias xdebi="sudo xbps-install -R binpkgs"
 alias dots='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 cfetch
