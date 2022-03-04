@@ -3,8 +3,6 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/								/*Interval*/		/*Signal*/
 	{"  ", 	"uname -r",		15,		0},
 
-	{"ﮮ  ", 		"checkupdates | wc -l",								1,		0},
-
 	{"  ", 		"free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",			30,		0},
 
 	{"  ", 		"date '+%b %d (%a)'",								33,		0},
