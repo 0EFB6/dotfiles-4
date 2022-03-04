@@ -13,7 +13,7 @@ pipewire &
 /usr/bin/wireplumber &
 
 #set wallpaper
-feh --bg-scale ~/.config/dwm/chill.png &
+feh --bg-scale ~/.config/dwm/wallpaper.jpg &
 
 #start dwm
 dwm
